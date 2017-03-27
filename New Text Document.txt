@@ -1,0 +1,36 @@
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz"
+
+
+
+## java ##
+alternatives --install /usr/bin/java java /opt/jdk8/jre/bin/java 2
+## javaws ##
+alternatives --install /usr/bin/javaws javaws /opt/jdk8/jre/bin/javaws 2
+
+## Install javac only
+alternatives --install /usr/bin/javac javac /opt/jdk8/bin/javac 2
+## jar ##
+alternatives --install /usr/bin/jar jar /opt/jdk8/bin/jar 2
+I know if there are multiple versions of java installed, you can select version to use from
+
+alternatives --config java
+then why to run alternative --install separately for each executable.
+
+
+8b51bdfeb94148cdb27ac2992772f26d
+8b51bdfeb94148cdb27ac2992772f26d
+
+7559daf7805d4bf1b3722d3b0ba8790c
+
+7559daf7805d4bf1b3722d3b0ba8790c
+
+7559daf7805d4bf1b3722d3b0ba8790c
+
+7559daf7805d4bf1b3722d3b0ba8790c
+
+
+admin
+7559daf7805d4bf1b3722d3b0ba8790c
+
+phani
+phani123
